@@ -261,7 +261,7 @@ def testin():
         d.app_stop("com.airlive.miya")
 
         sleep(3)
-
+        #关闭uiautomator服务
         d.service("uiautomator").stop()
         logger.debug("Turn off the service of uiautomator2")
 
