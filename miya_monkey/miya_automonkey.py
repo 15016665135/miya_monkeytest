@@ -16,7 +16,7 @@ import logging
 
 # from selenium.common.exceptions import NoSuchElementException
 
-from miya_monkey.applog import mklog
+#from miya_monkey.applog import mklog
 import logging.config
 from time import sleep
 
