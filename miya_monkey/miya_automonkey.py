@@ -69,7 +69,7 @@ def main(args):
             os.popen(s2)
             sleep(3)
             teststart("p")
-            sleep(10)
+            sleep(30)
             continue
         p1 = re.findall(r"connected", p)
         print(p1)
@@ -353,5 +353,5 @@ if __name__ == '__main__':
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
     args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.4.0_991/MIYA.V2.4.0.991.apk'
-    args.buildnum = 9925
+    args.buildnum = 996
     main(args)
