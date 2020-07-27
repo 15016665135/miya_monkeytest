@@ -353,5 +353,5 @@ if __name__ == '__main__':
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
     args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.4.0_989/MIYA.V2.4.0.989.apk'
-    args.buildnum = 989
+    args.buildnum = 991
     main(args)
