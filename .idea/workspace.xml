@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb5b98-9d06-424d-b1d2-73d0081568e2" name="Default Changelist" comment="new buildnum">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miya_monkey/miya_automonkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/miya_monkey/miya_automonkey.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="356" column="14" lean-forward="true" selection-start-line="356" selection-start-column="14" selection-end-line="356" selection-end-column="14" />
+            <state relative-caret-position="473">
+              <caret line="196" column="12" lean-forward="true" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="12" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
               </folding>
@@ -168,7 +167,7 @@
       <workItem from="1595815211267" duration="4061000" />
       <workItem from="1595842796796" duration="177000" />
       <workItem from="1595842978507" duration="957000" />
-      <workItem from="1595844191258" duration="389000" />
+      <workItem from="1595844191258" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="new buildnum">
       <created>1595843084293</created>
@@ -181,7 +180,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7037000" />
+    <option name="totallyTimeSpent" value="7090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -278,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="356" column="14" lean-forward="true" selection-start-line="356" selection-start-column="14" selection-end-line="356" selection-end-column="14" />
+        <state relative-caret-position="473">
+          <caret line="196" column="12" lean-forward="true" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="12" />
           <folding>
             <element signature="e#137#152#0" expanded="true" />
           </folding>
