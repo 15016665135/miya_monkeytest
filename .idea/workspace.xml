@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb5b98-9d06-424d-b1d2-73d0081568e2" name="Default Changelist" comment="new buildnum">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/miya_monkey/miya_automonkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/miya_monkey/miya_automonkey.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +15,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="650">
               <caret line="357" lean-forward="true" selection-start-line="357" selection-end-line="357" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
@@ -182,7 +181,7 @@
       <workItem from="1595842796796" duration="177000" />
       <workItem from="1595842978507" duration="957000" />
       <workItem from="1595844191258" duration="1973000" />
-      <workItem from="1595846232419" duration="633000" />
+      <workItem from="1595846232419" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="new buildnum">
       <created>1595843084293</created>
@@ -195,7 +194,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9254000" />
+    <option name="totallyTimeSpent" value="10158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -206,7 +205,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.07483731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,7 +273,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
+        <state relative-caret-position="650">
           <caret line="357" lean-forward="true" selection-start-line="357" selection-end-line="357" />
           <folding>
             <element signature="e#137#152#0" expanded="true" />
