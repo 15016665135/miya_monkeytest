@@ -9,7 +9,7 @@ import logging
 
 # from selenium.common.exceptions import NoSuchElementException
 
-from miya_monkey.miya_mokey.applog import mklog
+from miya_monkey.applog import mklog
 import logging.config
 from time import sleep
 from email.mime.text import MIMEText
