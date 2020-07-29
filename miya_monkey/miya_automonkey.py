@@ -56,8 +56,6 @@ def main(args):
     # adb connect 127.0.0.1:7555
     x = 1
     go = False
-    S = str(datetime.datetime.now())
-    now = S.split(' ')[0].replace('-', '')
 
     while (x < 20):
         sleep(5)
@@ -115,7 +113,7 @@ def main(args):
             while (1):
                 str1 = os.popen("adb shell ps | findstr monkey").read()
                 if len(str1) == 0:
-                    a = crash_analysis(log, crash_file_path ,now)
+                    a = crash_analysis(log, crash_file_path )
                     c = a[0]
                     s = a[1]
                     print("monkey 已经执行完成")
@@ -193,7 +191,7 @@ def fastmonkey(log):
     command.extend(['exec', 'app_process', '/system/bin tv.panda.test.monkey.Monkey'])
     command.extend(['-p', 'com.airlive.miya'])
     command.append('--uiautomatormix')
-    command.extend(['--running-minutes', '120'])
+    command.extend(['--running-minutes', '10'])
     command.extend(['--act-blacklist-file', '/sdcard/awl.strings'])
     command.append('--monitor-native-crashes')
     command.extend(['-v', '-v', '>', log])
@@ -316,42 +314,21 @@ def mail(c, crash_file_path, build, seed):
     return ret
 
 
-# # 崩溃检查
-# def crash_analysis(source_file_path, crash_file_path):
-#     analysis_flag = False
-#     crash_content = []
-#     read_lines = open(source_file_path,encoding='UTF-8')
-#     for line in read_lines:
-#         if ((line != None) and (("// CRASH:") in line)):
-#             analysis_flag = True
-#             print("find key word")
-#         elif ((line != None) and ((":Sending") in line) and analysis_flag):
-#             analysis_flag = False
-#         elif ((line != None) and ((":Switch") in line) and analysis_flag):
-#             analysis_flag = False
-#         if (analysis_flag):
-#             crash_content.append(line)
-#
-#     # 增加搜索seed值
-#     read_lines2 = open(source_file_path, encoding='UTF-8')
-#     read_line = read_lines2.read()
-#     try:
-#         crsah_seed = re.findall("// Monkey: seed=(.*?) count=1000", read_line)[0]
-#         print(crsah_seed)
-#     except:
-#         crsah_seed = 0
-#         print('没有找到seed值！')
-#
-#     if (crash_content):
-#         file_out = open(crash_file_path, 'w')
-#         file_out.writelines(crash_content)
-#         file_out.close()
-#         return True, crsah_seed
-#     else:
-#         return False, None
-
 # 崩溃检查
-def crash_analysis(source_file_path, crash_file_path, now):
+def crash_analysis(source_file_path, crash_file_path):
+    analysis_flag = False
+    crash_content = []
+    read_lines = open(source_file_path,encoding='UTF-8')
+    for line in read_lines:
+        if ((line != None) and (("// CRASH:") in line)):
+            analysis_flag = True
+            print("find key word")
+        elif ((line != None) and ((":Sending") in line) and analysis_flag):
+            analysis_flag = False
+        elif ((line != None) and ((":Switch") in line) and analysis_flag):
+            analysis_flag = False
+        if (analysis_flag):
+            crash_content.append(line)
 
     # 增加搜索seed值
     read_lines2 = open(source_file_path, encoding='UTF-8')
@@ -363,18 +340,13 @@ def crash_analysis(source_file_path, crash_file_path, now):
         crsah_seed = 0
         print('没有找到seed值！')
 
-    read_lines = open(source_file_path,encoding='UTF-8')
-    for line in read_lines:
-        if ((line != None) and (("// CRASH:") in line)):
-            print('出现崩溃！！！')
-            os.system('adb pull /storage/emulated/legacy/miya/logs/uncaught_exception_' + now + '.xlog ' + crash_file_path)
-            return True, crsah_seed
-        else:
-            return False, None
-
-def carsh_element():
-    pass
-
+    if (crash_content):
+        file_out = open(crash_file_path, 'w')
+        file_out.writelines(crash_content)
+        file_out.close()
+        return True, crsah_seed
+    else:
+        return False, None
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='FastMonkey Test Tools')
     # 接受传进来的build，url的参数
