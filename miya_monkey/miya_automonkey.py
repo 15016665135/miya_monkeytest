@@ -191,7 +191,7 @@ def fastmonkey(log):
     command.extend(['exec', 'app_process', '/system/bin tv.panda.test.monkey.Monkey'])
     command.extend(['-p', 'com.airlive.miya'])
     command.append('--uiautomatormix')
-    command.extend(['--running-minutes', '10'])
+    command.extend(['--running-minutes', '180'])
     command.extend(['--act-blacklist-file', '/sdcard/awl.strings'])
     command.append('--monitor-native-crashes')
     command.extend(['-v', '-v', '>', log])

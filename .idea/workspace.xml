@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+            <state relative-caret-position="-650">
+              <caret line="193" column="48" lean-forward="true" selection-start-line="193" selection-start-column="48" selection-end-line="193" selection-end-column="48" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
               </folding>
@@ -166,7 +166,7 @@
       <workItem from="1595842796796" duration="177000" />
       <workItem from="1595842978507" duration="957000" />
       <workItem from="1595844191258" duration="1973000" />
-      <workItem from="1595846232419" duration="11921000" />
+      <workItem from="1595846232419" duration="13261000" />
     </task>
     <task id="LOCAL-00001" summary="new buildnum">
       <created>1595843084293</created>
@@ -179,18 +179,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20542000" />
+    <option name="totallyTimeSpent" value="21882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39154014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17462039" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+        <state relative-caret-position="-650">
+          <caret line="193" column="48" lean-forward="true" selection-start-line="193" selection-start-column="48" selection-end-line="193" selection-end-column="48" />
           <folding>
             <element signature="e#137#152#0" expanded="true" />
           </folding>
