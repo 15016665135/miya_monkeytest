@@ -96,7 +96,7 @@ def main(args):
         # 安装测试包
         installapk(apkFile)
         # 在启动的时候删除多余日志
-        subprocess.Popen('adb shell cd /sdcard/caramel/ && rm -rf logs*', stdout=subprocess.PIPE,
+        subprocess.Popen('adb shell cd /sdcard/miya/ && rm -rf logs*', stdout=subprocess.PIPE,
                          stderr=subprocess.PIPE)
 
         # 进入测试环境
@@ -354,6 +354,6 @@ if __name__ == '__main__':
     parser.add_argument('-u' , '--apk-url', dest = 'apkurl' , help='need apk file url')
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
-    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.4.5_1021/MIYA.V2.4.5.1021.apk'
-    args.buildnum = 1021
+    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.4.5_1023/MIYA.V2.4.5.1023.apk'
+    args.buildnum = 1023
     main(args)
