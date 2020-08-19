@@ -354,6 +354,6 @@ if __name__ == '__main__':
     parser.add_argument('-u' , '--apk-url', dest = 'apkurl' , help='need apk file url')
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
-    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.5.0_1033/MIYA.V2.5.0.1033.apk'
-    args.buildnum = 1033
+    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.5.0_1036/MIYA.V2.5.0.1036.apk'
+    args.buildnum = 1036
     main(args)
