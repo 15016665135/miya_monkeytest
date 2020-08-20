@@ -231,7 +231,7 @@ def testin():
     try:
         command1 = 'adb shell am start -n com.airlive.miya/com.airlive.miya.MainActivity'
         os.popen(command1)
-        sleep(5)
+        sleep(10)
         d.app_stop('com.airlive.miya')
         os.popen(command1)
         sleep(10)
@@ -357,6 +357,6 @@ if __name__ == '__main__':
     parser.add_argument('-u' , '--apk-url', dest = 'apkurl' , help='need apk file url')
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
-    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.5.0_1046/MIYA.V2.5.0.1046.apk'
-    args.buildnum = 1046
+    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.5.0_1046/MIYA.V2.5.0.1047.apk'
+    args.buildnum = 1047
     main(args)
