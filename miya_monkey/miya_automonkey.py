@@ -231,6 +231,9 @@ def testin():
     try:
         command1 = 'adb shell am start -n com.airlive.miya/com.airlive.miya.MainActivity'
         os.popen(command1)
+        sleep(5)
+        d.app_stop('com.airlive.miya')
+        os.popen(command1)
         sleep(10)
         d.double_click(464, 144)
         sleep(3)
