@@ -13,7 +13,7 @@ from miya_monkey.applog import mklog
 import logging.config
 from time import sleep
 # d = u2.connect('172.23.74.8')
-d = u2.connect('ef196b64')
+d = u2.connect('48d1c4b995')
 print(d.info)
 for i in range(1,10000):
     d.click(400, 664)
