@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="199" column="26" lean-forward="true" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="361" column="14" lean-forward="true" selection-start-line="361" selection-start-column="14" selection-end-line="361" selection-end-column="14" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
               </folding>
@@ -232,7 +232,7 @@
       <workItem from="1595846232419" duration="13277000" />
       <workItem from="1596698138937" duration="5079000" />
       <workItem from="1597024061027" duration="31656000" />
-      <workItem from="1597628753998" duration="19879000" />
+      <workItem from="1597628753998" duration="21451000" />
     </task>
     <task id="LOCAL-00001" summary="new buildnum">
       <created>1595843084293</created>
@@ -276,11 +276,25 @@
       <option name="project" value="LOCAL" />
       <updated>1597913677107</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new buildnum1046">
+      <created>1597913864996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597913864996</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new buildnum1047">
+      <created>1597916952087</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597916952088</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78512000" />
+    <option name="totallyTimeSpent" value="80084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -318,7 +332,8 @@
     <MESSAGE value="new buildnum1037" />
     <MESSAGE value="new buildnum1044" />
     <MESSAGE value="new buildnum1046" />
-    <option name="LAST_COMMIT_MESSAGE" value="new buildnum1046" />
+    <MESSAGE value="new buildnum1047" />
+    <option name="LAST_COMMIT_MESSAGE" value="new buildnum1047" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,7 +363,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/monkey_test$miya_automonkey.coverage" NAME="miya_automonkey Coverage Results" MODIFIED="1595843495857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/monkey_test/miya_monkey" />
-    <SUITE FILE_PATH="coverage/monkey_test$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1597909985653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miya_monkey" />
+    <SUITE FILE_PATH="coverage/monkey_test$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1597914883003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miya_monkey" />
     <SUITE FILE_PATH="coverage/monkey_test$miya_automonkey__1_.coverage" NAME="miya_automonkey (1) Coverage Results" MODIFIED="1596717359544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miya_monkey" />
     <SUITE FILE_PATH="coverage/monkey_test$test.coverage" NAME="test Coverage Results" MODIFIED="1597396986614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/miya_monkey" />
   </component>
@@ -404,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="199" column="26" lean-forward="true" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="361" column="14" lean-forward="true" selection-start-line="361" selection-start-column="14" selection-end-line="361" selection-end-column="14" />
           <folding>
             <element signature="e#137#152#0" expanded="true" />
           </folding>
