@@ -227,6 +227,7 @@ def download_file(url, destPath):
 def testin():
     # d= u2.connect('127.0.0.1:7555') #mumu模拟器
     d = u2.connect('127.0.0.1:62001')  # yeshen模拟器
+    print(d.info)
     # 进入测试环境页面
     try:
         command1 = 'adb shell am start -n com.airlive.miya/com.airlive.miya.MainActivity'
@@ -234,8 +235,8 @@ def testin():
         sleep(10)
         d.app_stop('com.airlive.miya')
         os.popen(command1)
-        sleep(10)
-        d.double_click(464, 144)
+        sleep(15)
+        d.double_click(300,300)
         sleep(3)
         d(text="服务器").click()
         sleep(2)
@@ -250,7 +251,7 @@ def testin():
         #         # else:
         #         #     cancelBtoon1.click()
 
-        sleep(3)
+        sleep(10)
         d(resourceId="com.airlive.miya:id/edt_account").clear_text()
         d(resourceId="com.airlive.miya:id/edt_account").set_text("1005026")
         sleep(2)
