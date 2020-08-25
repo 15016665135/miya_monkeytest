@@ -293,10 +293,10 @@ def mail(c, crash_file_path, build, seed):
         message = MIMEMultipart()
         message['From'] = Header("miya测试组", 'utf-8')
         message['To'] = Header("技术研发部", 'utf-8')
-        message.attach(MIMEText('构建号为'+ build +'monkey测试,' + '节点' + seed, 'plain', 'utf-8'))
+        message.attach(MIMEText('Hi all,'+'在构建号为'+ build + '的测试包进行Monkey测试过程中发现崩溃情况如附件所示，请查收。', 'plain', 'utf-8'))
         if (c == True):
             # 构造附件1，传送当前目录下的 test.txt 文件
-            subject = 'Hi,all'+'在构建号为'+ build +'的测试包进行Monkey测试过程中发现崩溃情况如附件所示，请查收。'
+            subject = '构建号为'+ build+'的monkey测试'
             message['Subject'] = Header(subject, 'utf-8')
             att1 = MIMEText(open(crash_file_path, 'rb').read(), 'base64', 'utf-8')
             att1["Content-Type"] = 'application/octet-stream'
