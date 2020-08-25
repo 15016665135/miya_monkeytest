@@ -32,7 +32,7 @@ logger = logging.getLogger('main')
 # 设置邮件基本信息
 my_sender = 'linchuanhui@xinyu100.com'  # 发件人邮箱账号
 my_pass = 'Lch15016665135'  # 发件人邮箱密码
-my_user = ['miya-qa@xinyu100.com']  # 收件人邮箱账号
+my_user = ['358422661@qq.com']  # 收件人邮箱账号
 
 
 # 设置变量地址
@@ -191,7 +191,7 @@ def fastmonkey(log):
     command.extend(['exec', 'app_process', '/system/bin tv.panda.test.monkey.Monkey'])
     command.extend(['-p', 'com.airlive.miya'])
     command.append('--uiautomatormix')
-    command.extend(['--running-minutes', '60'])
+    command.extend(['--running-minutes', '30'])
     command.extend(['--act-blacklist-file', '/sdcard/awl.strings'])
     command.append('--monitor-native-crashes')
     command.extend(['-v', '-v', '>', log])
@@ -290,12 +290,12 @@ def mail(c, crash_file_path, build, seed):
     ret = True
     try:
         message = MIMEMultipart()
-        message['From'] = Header("MIYA测试组", 'utf-8')
-        message['To'] = Header("MIYA安卓组", 'utf-8')
-        message.attach(MIMEText('版本号'+ build +'monkey自动化测试,' + 'seed回归：' + seed, 'plain', 'utf-8'))
+        message['From'] = Header("miya测试组", 'utf-8')
+        message['To'] = Header("技术研发部", 'utf-8')
+        message.attach(MIMEText('构建号为'+ build +'monkey测试,' + '节点' + seed, 'plain', 'utf-8'))
         if (c == True):
             # 构造附件1，传送当前目录下的 test.txt 文件
-            subject = '在版本号为'+ build +'的Monkey测试过程中发现--崩溃情况'
+            subject = 'Hi,all'+'在构建号为'+ build +'的测试包进行Monkey测试过程中发现崩溃情况如附件所示，请查收。'
             message['Subject'] = Header(subject, 'utf-8')
             att1 = MIMEText(open(crash_file_path, 'rb').read(), 'base64', 'utf-8')
             att1["Content-Type"] = 'application/octet-stream'
