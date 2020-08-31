@@ -32,7 +32,7 @@ logger = logging.getLogger('main')
 # 设置邮件基本信息
 my_sender = 'linchuanhui@xinyu100.com'  # 发件人邮箱账号
 my_pass = 'Lch15016665135'  # 发件人邮箱密码
-my_user = ['358422661@qq.com']  # 收件人邮箱账号
+my_user = ['anzhuokaifazu@miya818.com','yanfaguanlizu@miya818.com']  # 收件人邮箱账号
 
 
 # 设置变量地址
@@ -191,7 +191,7 @@ def fastmonkey(log):
     command.extend(['exec', 'app_process', '/system/bin tv.panda.test.monkey.Monkey'])
     command.extend(['-p', 'com.airlive.miya'])
     command.append('--uiautomatormix')
-    command.extend(['--running-minutes', '120'])
+    command.extend(['--running-minutes', '360'])
     command.extend(['--act-blacklist-file', '/sdcard/awl.strings'])
     command.append('--monitor-native-crashes')
     command.extend(['-v', '-v', '>', log])
@@ -292,7 +292,7 @@ def mail(c, crash_file_path, build, seed):
     try:
         message = MIMEMultipart()
         message['From'] = Header("miya测试组", 'utf-8')
-        message['To'] = Header("技术研发部", 'utf-8')
+        message['To'] = Header("安卓研发组", 'utf-8')
         message.attach(MIMEText('Hi all,'+'在构建号为'+ build + '的测试包进行Monkey测试过程中发现崩溃情况如附件所示，请查收。', 'plain', 'utf-8'))
         if (c == True):
             # 构造附件1，传送当前目录下的 test.txt 文件
@@ -358,6 +358,6 @@ if __name__ == '__main__':
     parser.add_argument('-u' , '--apk-url', dest = 'apkurl' , help='need apk file url')
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
-    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.5.5-SNAPSHOT_1067/MIYA.V2.5.5-SNAPSHOT.1067.apk'
-    args.buildnum = 1067
+    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.5.5-SNAPSHOT_1069/MIYA.V2.5.5-SNAPSHOT.1069.apk'
+    args.buildnum = 1069
     main(args)
