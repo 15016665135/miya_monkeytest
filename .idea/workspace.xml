@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="362" column="14" lean-forward="true" selection-start-line="362" selection-start-column="14" selection-end-line="362" selection-end-column="14" />
+            <state relative-caret-position="599">
+              <caret line="198" column="18" lean-forward="true" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
               </folding>
@@ -37,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miya_monkey/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="599">
               <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="e#18#33#0" expanded="true" />
@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miya_monkey/test3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="389">
               <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
@@ -72,7 +72,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="38" />
+    <option name="x" value="-177" />
+    <option name="y" value="61" />
     <option name="width" value="1534" />
     <option name="height" value="1047" />
   </component>
@@ -82,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,7 +100,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,7 +264,8 @@
       <workItem from="1597024061027" duration="31656000" />
       <workItem from="1597628753998" duration="27042000" />
       <workItem from="1598235762613" duration="29516000" />
-      <workItem from="1598854335999" duration="83000" />
+      <workItem from="1598854335999" duration="3325000" />
+      <workItem from="1599013441968" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="new buildnum">
       <created>1595843084293</created>
@@ -349,17 +351,31 @@
       <option name="project" value="LOCAL" />
       <updated>1598344763047</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new buildnum1067">
+      <created>1598854433096</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598854433096</updated>
+    </task>
+    <task id="LOCAL-00014" summary="new buildnum1069">
+      <created>1598875217696</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598875217696</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115274000" />
+    <option name="totallyTimeSpent" value="119511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,7 +408,9 @@
     <MESSAGE value="new buildnum1044" />
     <MESSAGE value="new buildnum1046" />
     <MESSAGE value="new buildnum1047" />
-    <option name="LAST_COMMIT_MESSAGE" value="new buildnum1047" />
+    <MESSAGE value="new buildnum1067" />
+    <MESSAGE value="new buildnum1069" />
+    <option name="LAST_COMMIT_MESSAGE" value="new buildnum1069" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,9 +475,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/miya_monkey/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="599">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="e#18#33#0" expanded="true" />
@@ -469,22 +494,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="389">
           <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miya_monkey/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="362" column="14" lean-forward="true" selection-start-line="362" selection-start-column="14" selection-end-line="362" selection-end-column="14" />
+        <state relative-caret-position="599">
+          <caret line="198" column="18" lean-forward="true" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
           <folding>
             <element signature="e#137#152#0" expanded="true" />
           </folding>
