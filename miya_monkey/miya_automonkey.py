@@ -191,7 +191,7 @@ def fastmonkey(log):
     command.extend(['exec', 'app_process', '/system/bin tv.panda.test.monkey.Monkey'])
     command.extend(['-p', 'com.airlive.miya'])
     command.append('--uiautomatormix')
-    command.extend(['--running-minutes', '360'])
+    command.extend(['--running-minutes', '60'])
     command.extend(['--act-blacklist-file', '/sdcard/awl.strings'])
     command.append('--monitor-native-crashes')
     command.extend(['-v', '-v', '>', log])
@@ -358,6 +358,6 @@ if __name__ == '__main__':
     parser.add_argument('-u' , '--apk-url', dest = 'apkurl' , help='need apk file url')
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
-    args.apkurl = ' https://ios.build.miya.chat/static/MIYA_android/2.5.5-SNAPSHOT_1085/MIYA.V2.5.5-SNAPSHOT.1085.apk'
-    args.buildnum = 1085
+    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.5.5-SNAPSHOT_1086/MIYA.V2.5.5-SNAPSHOT.1086.apk'
+    args.buildnum = 1086
     main(args)

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py" line="360" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2bbb5b98-9d06-424d-b1d2-73d0081568e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -16,10 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="193" column="47" lean-forward="true" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+            <state relative-caret-position="689">
+              <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
               <folding>
                 <element signature="e#137#152#0" expanded="true" />
+                <element signature="e#862#870#0" />
               </folding>
             </state>
           </provider>
@@ -265,7 +269,7 @@
       <workItem from="1597628753998" duration="27042000" />
       <workItem from="1598235762613" duration="29516000" />
       <workItem from="1598854335999" duration="3325000" />
-      <workItem from="1599013441968" duration="2259000" />
+      <workItem from="1599013441968" duration="3853000" />
     </task>
     <task id="LOCAL-00001" summary="new buildnum">
       <created>1595843084293</created>
@@ -379,11 +383,25 @@
       <option name="project" value="LOCAL" />
       <updated>1599050088359</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new buildnum1082">
+      <created>1599131244157</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599131244157</updated>
+    </task>
+    <task id="LOCAL-00018" summary="new buildnum1085">
+      <created>1599140702246</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599140702246</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120775000" />
+    <option name="totallyTimeSpent" value="122369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -425,7 +443,9 @@
     <MESSAGE value="new buildnum1067" />
     <MESSAGE value="new buildnum1069" />
     <MESSAGE value="new buildnum1079" />
-    <option name="LAST_COMMIT_MESSAGE" value="new buildnum1079" />
+    <MESSAGE value="new buildnum1082" />
+    <MESSAGE value="new buildnum1085" />
+    <option name="LAST_COMMIT_MESSAGE" value="new buildnum1085" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -516,10 +536,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miya_monkey/miya_automonkey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="193" column="47" lean-forward="true" selection-start-line="193" selection-start-column="47" selection-end-line="193" selection-end-column="47" />
+        <state relative-caret-position="689">
+          <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
           <folding>
             <element signature="e#137#152#0" expanded="true" />
+            <element signature="e#862#870#0" />
           </folding>
         </state>
       </provider>
