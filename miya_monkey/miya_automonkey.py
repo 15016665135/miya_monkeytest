@@ -252,12 +252,6 @@ def testin():
         #         #     cancelBtoon1.click()
 
         sleep(10)
-        d(resourceId="com.airlive.miya:id/edt_account").clear_text()
-        d(resourceId="com.airlive.miya:id/edt_account").set_text("1005026")
-        sleep(2)
-        d(resourceId="com.airlive.miya:id/btnLogin").click()
-
-        sleep(10)
         d.app_stop('com.airlive.miya')
         os.popen(command1)
         d(resourceId="com.airlive.miya:id/edt_account").clear_text()
