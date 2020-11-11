@@ -1,5 +1,6 @@
 import socket
 import random
+import unittest
 sk = socket.socket()
 #创建实例
 sk = socket.socket()

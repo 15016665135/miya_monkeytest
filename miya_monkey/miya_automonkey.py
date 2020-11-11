@@ -255,7 +255,7 @@ def testin():
         d.app_stop('com.airlive.miya')
         os.popen(command1)
         d(resourceId="com.airlive.miya:id/edt_account").clear_text()
-        d(resourceId="com.airlive.miya:id/edt_account").set_text("1005026")
+        d(resourceId="com.airlive.miya:id/edt_account").set_text("1000018")
         sleep(2)
         d(resourceId="com.airlive.miya:id/btnLogin").click()
         sleep(3)
@@ -352,6 +352,6 @@ if __name__ == '__main__':
     parser.add_argument('-u' , '--apk-url', dest = 'apkurl' , help='need apk file url')
     # parser.add_argument('-c' , '--channel-config', dest = 'channel_config' , help='channel_config pass to VasDolly')
     args = parser.parse_args()
-    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.7.0-SNAPSHOT_1190/MIYA.V2.7.0-SNAPSHOT.1190.apk'
-    args.buildnum = 1190
+    args.apkurl = 'https://ios.build.miya.chat/static/MIYA_android/2.7.5-SNAPSHOT_1206/MIYA.V2.7.5-SNAPSHOT.1206.apk'
+    args.buildnum = 1206
     main(args)
